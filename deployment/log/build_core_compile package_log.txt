@@ -1,0 +1,14 @@
+Buildfile: C:\Users\moj\Documents\Mendix\LongRunningTask-main\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 137 source files to C:\Users\moj\Documents\Mendix\LongRunningTask-main\deployment\run\bin
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+package:
+      [jar] Building jar: C:\Users\moj\Documents\Mendix\LongRunningTask-main\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+
+

@@ -1,0 +1,10 @@
+Buildfile: C:\Users\moj\Documents\Mendix\LongRunningTask-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 46 files to C:\Users\moj\Documents\Mendix\LongRunningTask-main\deployment
+     [copy] Copying 24 files to C:\Users\moj\Documents\Mendix\LongRunningTask-main\deployment\model\lib\userlib
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+
+

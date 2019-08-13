@@ -1,0 +1,37 @@
+/* https://raw.githubusercontent.com/mendix/atlas-framework/master/_variables.scss */
+.widget-progress-bar {
+  width: 100%; }
+
+.widget-progress-bar-clickable:hover {
+  cursor: pointer; }
+
+.widget-progress-bar-negative {
+  float: right;
+  display: block; }
+
+.widget-progress-bar .progress-bar-default {
+  background-color: #DDDDDD; }
+
+.widget-progress-bar .progress-bar-primary {
+  background-color: #0595DB; }
+
+.widget-progress-bar .progress-bar-success {
+  background-color: #76CA02; }
+
+.widget-progress-bar .progress-bar-info {
+  background-color: #48B0F7; }
+
+.widget-progress-bar .progress-bar-warning {
+  background-color: #f99b1d; }
+
+.widget-progress-bar .progress-bar-danger {
+  background-color: #ed1c24; }
+
+.widget-progress-bar .progress-bar-inverse {
+  background-color: #252C36; }
+
+.widget-progress-bar-alert.widget-progress-bar-text-contrast .progress-bar {
+  color: #8e1116; }
+
+.widget-progress-bar-text-contrast .progress-bar {
+  color: #555; }

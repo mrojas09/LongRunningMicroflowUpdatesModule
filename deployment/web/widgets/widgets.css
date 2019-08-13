@@ -1,0 +1,132 @@
+/* https://raw.githubusercontent.com/mendix/atlas-framework/master/_variables.scss */
+.widget-progress-bar {
+  width: 100%; }
+
+.widget-progress-bar-clickable:hover {
+  cursor: pointer; }
+
+.widget-progress-bar-negative {
+  float: right;
+  display: block; }
+
+.widget-progress-bar .progress-bar-default {
+  background-color: #DDDDDD; }
+
+.widget-progress-bar .progress-bar-primary {
+  background-color: #0595DB; }
+
+.widget-progress-bar .progress-bar-success {
+  background-color: #76CA02; }
+
+.widget-progress-bar .progress-bar-info {
+  background-color: #48B0F7; }
+
+.widget-progress-bar .progress-bar-warning {
+  background-color: #f99b1d; }
+
+.widget-progress-bar .progress-bar-danger {
+  background-color: #ed1c24; }
+
+.widget-progress-bar .progress-bar-inverse {
+  background-color: #252C36; }
+
+.widget-progress-bar-alert.widget-progress-bar-text-contrast .progress-bar {
+  color: #8e1116; }
+
+.widget-progress-bar-text-contrast .progress-bar {
+  color: #555; }
+
+/* based on: https://raw.githubusercontent.com/mendix/atlas-framework/master/_variables.scss */
+.widget-progress-circle {
+  width: 100%; }
+
+.widget-progress-circle .h1, .widget-progress-circle .h2, .widget-progress-circle .h3, .widget-progress-circle .h4, .widget-progress-circle .h5, .widget-progress-circle .h6 {
+  margin: 0px; }
+
+.widget-progress-circle-trail-path {
+  stroke: #eee; }
+
+.widget-progress-circle-alert .progressbar-text {
+  color: red !important;
+  /* The Progress library has inline styling on the circle text */ }
+
+.widget-progress-circle-clickable {
+  cursor: pointer; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .widget-progress-circle > div {
+    height: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 100%; }
+    .widget-progress-circle > div > svg {
+      top: 0;
+      left: 0;
+      height: 100%;
+      position: absolute; } }
+
+.widget-progress-circle-path {
+  stroke: #0595DB; }
+
+.widget-progress-circle-primary .widget-progress-circle-path {
+  stroke: #0595DB; }
+
+.widget-progress-circle-info .widget-progress-circle-path {
+  stroke: #48B0F7; }
+
+.widget-progress-circle-success .widget-progress-circle-path {
+  stroke: #76CA02; }
+
+.widget-progress-circle-warning .widget-progress-circle-path {
+  stroke: #f99b1d; }
+
+.widget-progress-circle-danger .widget-progress-circle-path {
+  stroke: #ed1c24; }
+
+.widget-progress-circle-inverse .widget-progress-circle-path {
+  stroke: #252C36; }
+
+#connection-error-bar {
+    background: rgba(0,0,0,0.8);
+    z-index: 10000;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    display: none;
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+}
+
+#connection-error-bar.open {
+    top: 0px;
+    display: block;
+    transition-property: top;
+    transition-duration: 0.5s;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 0.5s;
+}
+
+#connection-error-bar-message {
+    margin: 20px;
+}
+
+#connection-error-bar.closed {
+    top: -70px; /* -50px and 20px margin from message */
+    display: block;
+    transition-property: top;
+    transition-duration: 0.5s;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 0.5s;
+}
+
+.mx-groupbox.lazy,
+.mx-groupbox.lazy > div.mx-groupbox-body {
+    padding: 0!important;
+    margin: 0!important;
+    border: 0!important;
+}
